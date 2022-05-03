@@ -14,7 +14,7 @@ class SocketConnection:
     jobs = [1, 2]
     queue = Queue()
 
-    def __init__(self, ip='127.0.0.1', port=4001):
+    def __init__(self, ip='127.0.0.1', port=5002):
         self.ip = ip
         self.port = port
         self.socket = None

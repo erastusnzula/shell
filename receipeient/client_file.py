@@ -9,7 +9,7 @@ import os
 class SocketConnection:
     socket = None
 
-    def __init__(self, ip='127.0.0.1', port=4001):
+    def __init__(self, ip='127.0.0.1', port=5002):
         self.ip = ip
         self.port = port
 
